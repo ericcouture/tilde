@@ -1,0 +1,46 @@
+.bodyBox {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.hoverRed:hover {
+    color:red;
+
+}
+
+.hoverBlue:hover {
+    color:blue;
+}
+
+.hoverGreen:hover {
+    color:green;
+}
+
+#name {
+    color: black;
+    text-decoration: none;
+}
+
+.name {
+    color: black;
+    text-decoration: none;
+}
+
+.logTitle {
+    font-weight: bold;
+}
+
+.logContent {
+    text-indent: 2em;
+}
+
+td {
+    width: 50%;
+}
+
+footer {
+    vertical-align: bottom;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
