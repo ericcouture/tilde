@@ -1,0 +1,18 @@
+#!/bin/bash
+
+FILES="aboutMe.html
+blog.html
+changelog.html
+directory.html
+index.html
+lists.html
+script.js
+style.css
+"
+
+for f in $FILES
+do
+	echo "Syncing $f"
+	rsync -va $f arplo@tilde.town:~/public_html
+	
+done

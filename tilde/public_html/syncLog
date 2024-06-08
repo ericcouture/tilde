@@ -1,0 +1,10 @@
+#!/bin/bash
+
+FILES="blog.html"
+
+for f in $FILES
+do
+	echo "Syncing $f"
+	rsync -va $f arplo@tilde.town:~/public_html
+	
+done
